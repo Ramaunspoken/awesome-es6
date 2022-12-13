@@ -2,7 +2,7 @@ import BookLibrary from './module/bookLibrary.js';
 import { navItems } from './module/domSlectors.js';
 import addNavSection from './module/navigation.js';
 
-//Date in html
+// Date in html
 const dt = luxon.DateTime.now(); // eslint-disable-line
 document.getElementById('show-date').innerText = dt.toLocaleString(luxon.DateTime.DATETIME_MED); // eslint-disable-line
 
